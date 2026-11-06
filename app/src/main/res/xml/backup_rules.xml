@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+
+    <!-- Exclude the local event database from backup -->
+    <exclude domain="database" path="." />
+
+    <!-- Exclude saved preferences -->
+    <exclude domain="sharedpref" path="." />
+
+    <!-- Exclude internal app files -->
+    <exclude domain="file" path="." />
+
+    <!-- Exclude external app files -->
+    <exclude domain="external" path="." />
+
+</full-backup-content>
